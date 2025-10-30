@@ -8,7 +8,6 @@
       // All config options at https://respec.org/docs/
       var respecConfig = {
         specStatus: "unofficial",
-        format: "markdown",
         editors: [{
           name: "Your Name",
           url: "http://your-site.com",
@@ -28,38 +27,40 @@ This is required.
 This is required.
     </section>
     <section data-dfn-for="Foo">
-## Start your spec!
+      <h2>Start your spec!</h2>
 
-```idl
+      <pre class="idl">
 [Exposed=Window]
 interface Foo {
   attribute DOMString bar;
   undefined doTheFoo();
 };
-```
+      </pre>
 
-### <dfn>bar</dfn> attribute
+      <h3><dfn>bar</dfn> attribute</h3>
 
-When getting, the {{Foo/bar}} attribute returns you a 🍹.
+      <p>When getting, the {{Foo/bar}} attribute returns you a 🍹.</p>
 
-### <dfn>doTheFoo()</dfn> method
+      <h3><dfn>doTheFoo()</dfn> method</h3>
 
-When called, {{Foo/doTheFoo()}} MUST behave as follows:
+      <p>When called, {{Foo/doTheFoo()}} MUST behave as follows:</p>
 
-<ol class="algorithm">
-  <li>If <var>thing</var>....</li>
-  <li>Let <var>someProp</var>... of the [[DOM]] spec.</li>
-</ol>
+      <ol class="algorithm">
+        <li>If <var>thing</var>....</li>
+        <li>Let <var>someProp</var>... of the [[DOM]] spec.</li>
+      </ol>
 
     </section>
 
     <section>
-## This is a heading
+      <h2>This is a heading</h2>
 
-I'm a paragraph.
+      <p>I'm a paragraph.</p>
 
-* list item
-* another list item
+      <ul>
+        <li>list item</li>
+        <li>another list item</li>
+      </ul>
     </section>
 
     <section id='conformance'>
