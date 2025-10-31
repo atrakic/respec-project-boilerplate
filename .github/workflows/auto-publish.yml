@@ -15,5 +15,5 @@ jobs:
       - uses: w3c/spec-prod@v2
         with:
           GH_PAGES_BRANCH: gh-pages
-          SOURCE: starter.html
+          SOURCE: spec/starter.html
           DESTINATION: index.html
